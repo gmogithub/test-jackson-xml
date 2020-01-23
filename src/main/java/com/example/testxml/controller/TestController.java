@@ -15,6 +15,10 @@ public class TestController {
         cities.addCity(new City("Paris", "PARIS"));
         cities.addCity(new City("Marseille", "MARSEILLE"));
         cities.addCity(new City("Lyon", "LYON"));
+        cities.setL(new Children2("toto"));
+        cities.setZ(new Children("tata"));
+        cities.setToto("test");
+        cities.setTutu("tutu");
         return root;
     }
 
